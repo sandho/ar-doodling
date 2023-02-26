@@ -1,0 +1,129 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void ARDraw::Start()
+extern void ARDraw_Start_m8CA556E1EC5B814094D734489782BA7AE53ABE9E (void);
+// 0x00000002 System.Void ARDraw::Update()
+extern void ARDraw_Update_m016E3C1755254C98CF6BC0C5951AF386B8592101 (void);
+// 0x00000003 System.Void ARDraw::UpdateAnchor()
+extern void ARDraw_UpdateAnchor_mF42A47B9311F26EACDFBEE16967EA1682274FF9B (void);
+// 0x00000004 System.Void ARDraw::MakeLineRenderer()
+extern void ARDraw_MakeLineRenderer_m6A4E8DCC03403F1ABA462B8226651FF8E79A46E3 (void);
+// 0x00000005 System.Void ARDraw::DrawLinewContinue()
+extern void ARDraw_DrawLinewContinue_mB41B6C5E36EB002E63D0321EC20DB2B51366A948 (void);
+// 0x00000006 System.Void ARDraw::StartDrawLine()
+extern void ARDraw_StartDrawLine_mF4C30582280D85ABB40F2ACA023765C7F9036A1C (void);
+// 0x00000007 System.Void ARDraw::StopDrawLine()
+extern void ARDraw_StopDrawLine_m69702BB950003867C8B7C8D98FD3C999CCB24972 (void);
+// 0x00000008 System.Void ARDraw::Undo()
+extern void ARDraw_Undo_m4B9896AE2FF39A5E5C1AF47F9DED280D714BFD99 (void);
+// 0x00000009 System.Void ARDraw::ClearScreen()
+extern void ARDraw_ClearScreen_m1274FA33BB3496A72BFA3984D0EEB560080CDE5E (void);
+// 0x0000000A System.Void ARDraw::.ctor()
+extern void ARDraw__ctor_mF2F23E993C611CE69B40480717B3C9E3D99688A7 (void);
+// 0x0000000B System.Void ColorEvent::.ctor()
+extern void ColorEvent__ctor_m7A0A78ACE687D93EF8391803C920EC8D9F3B200C (void);
+// 0x0000000C System.Void ColorPicker::Start()
+extern void ColorPicker_Start_m1A26DE8C1AD5C3693AE8944B00046A92614BA83F (void);
+// 0x0000000D System.Void ColorPicker::Update()
+extern void ColorPicker_Update_m57A35D60019BD1D94842093E6AEC22F070A764D1 (void);
+// 0x0000000E System.Void ColorPicker::.ctor()
+extern void ColorPicker__ctor_mF92D03766B891AE5BC3472F0C3B8E2F126729EE8 (void);
+// 0x0000000F System.Void Follow::Start()
+extern void Follow_Start_m24C8D829A37921019625989CD4110C3E795F37CD (void);
+// 0x00000010 System.Void Follow::Update()
+extern void Follow_Update_m5BE569B368CD73650494F6E4F22D9B612589E220 (void);
+// 0x00000011 System.Void Follow::.ctor()
+extern void Follow__ctor_m7748C4BA7548A163F57B2692830B4FCEFB223B03 (void);
+// 0x00000012 System.Void OpenClose::ShowOrHide()
+extern void OpenClose_ShowOrHide_mFBA1F505F4986B2E52C0F8460058C34DE05EA818 (void);
+// 0x00000013 System.Void OpenClose::Hide()
+extern void OpenClose_Hide_m734BE2738475311F45EF15604845933990A05CFF (void);
+// 0x00000014 System.Void OpenClose::.ctor()
+extern void OpenClose__ctor_mD82A71D6DAB3A52852B5EF585E21A48A1A5ABFFC (void);
+// 0x00000015 System.Void Readme::.ctor()
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+// 0x00000016 System.Void Readme/Section::.ctor()
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+static Il2CppMethodPointer s_methodPointers[22] = 
+{
+	ARDraw_Start_m8CA556E1EC5B814094D734489782BA7AE53ABE9E,
+	ARDraw_Update_m016E3C1755254C98CF6BC0C5951AF386B8592101,
+	ARDraw_UpdateAnchor_mF42A47B9311F26EACDFBEE16967EA1682274FF9B,
+	ARDraw_MakeLineRenderer_m6A4E8DCC03403F1ABA462B8226651FF8E79A46E3,
+	ARDraw_DrawLinewContinue_mB41B6C5E36EB002E63D0321EC20DB2B51366A948,
+	ARDraw_StartDrawLine_mF4C30582280D85ABB40F2ACA023765C7F9036A1C,
+	ARDraw_StopDrawLine_m69702BB950003867C8B7C8D98FD3C999CCB24972,
+	ARDraw_Undo_m4B9896AE2FF39A5E5C1AF47F9DED280D714BFD99,
+	ARDraw_ClearScreen_m1274FA33BB3496A72BFA3984D0EEB560080CDE5E,
+	ARDraw__ctor_mF2F23E993C611CE69B40480717B3C9E3D99688A7,
+	ColorEvent__ctor_m7A0A78ACE687D93EF8391803C920EC8D9F3B200C,
+	ColorPicker_Start_m1A26DE8C1AD5C3693AE8944B00046A92614BA83F,
+	ColorPicker_Update_m57A35D60019BD1D94842093E6AEC22F070A764D1,
+	ColorPicker__ctor_mF92D03766B891AE5BC3472F0C3B8E2F126729EE8,
+	Follow_Start_m24C8D829A37921019625989CD4110C3E795F37CD,
+	Follow_Update_m5BE569B368CD73650494F6E4F22D9B612589E220,
+	Follow__ctor_m7748C4BA7548A163F57B2692830B4FCEFB223B03,
+	OpenClose_ShowOrHide_mFBA1F505F4986B2E52C0F8460058C34DE05EA818,
+	OpenClose_Hide_m734BE2738475311F45EF15604845933990A05CFF,
+	OpenClose__ctor_mD82A71D6DAB3A52852B5EF585E21A48A1A5ABFFC,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+};
+static const int32_t s_InvokerIndices[22] = 
+{
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+	7496,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	22,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
